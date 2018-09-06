@@ -279,6 +279,41 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Sales_objetives__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales objetives</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 - Good</fullName>
+                    <default>false</default>
+                    <label>1 - Good</label>
+                </value>
+                <value>
+                    <fullName>2 - Not bad</fullName>
+                    <default>false</default>
+                    <label>2 - Not bad</label>
+                </value>
+                <value>
+                    <fullName>3 - Regular</fullName>
+                    <default>false</default>
+                    <label>3 - Regular</label>
+                </value>
+                <value>
+                    <fullName>4 - Bad</fullName>
+                    <default>false</default>
+                    <label>4 - Bad</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -334,6 +369,17 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Value__c</fullName>
+        <externalId>false</externalId>
+        <label>Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Website</fullName>
