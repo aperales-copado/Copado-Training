@@ -41,7 +41,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>External_ID__c</field>
+                <field>Value__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -166,6 +166,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Description</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Sales_objetives__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
