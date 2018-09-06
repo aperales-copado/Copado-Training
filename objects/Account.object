@@ -271,36 +271,30 @@
         <fullName>Sales_objetives__c</fullName>
         <externalId>false</externalId>
         <label>Sales objetives</label>
-        <required>false</required>
+        <required>true</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>MultiselectPicklist</type>
+        <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>1 - Good</fullName>
+                    <fullName>Complete</fullName>
                     <default>false</default>
-                    <label>1 - Good</label>
+                    <label>Complete</label>
                 </value>
                 <value>
-                    <fullName>2 - Not bad</fullName>
+                    <fullName>Not Completed</fullName>
                     <default>false</default>
-                    <label>2 - Not bad</label>
+                    <label>Not Completed</label>
                 </value>
                 <value>
-                    <fullName>3 - Regular</fullName>
+                    <fullName>In Progress</fullName>
                     <default>false</default>
-                    <label>3 - Regular</label>
-                </value>
-                <value>
-                    <fullName>4 - Bad</fullName>
-                    <default>false</default>
-                    <label>4 - Bad</label>
+                    <label>In Progress</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
-        <visibleLines>4</visibleLines>
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
@@ -367,8 +361,7 @@
         <required>false</required>
         <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
-        <unique>false</unique>
+        <type>Currency</type>
     </fields>
     <fields>
         <fullName>Website</fullName>
